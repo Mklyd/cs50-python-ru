@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Неделя 0 Функции</h1>
-    <iframe width="1214" height="683" src="https://www.youtube.com/embed/_b6NgY_pMdw" title="CS50P - Lecture 1 - Conditionals" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1214" height="683" src="https://www.youtube.com/embed/JP7ITIXGpHk" title="CS50P - Lecture 0 - Functions, Variables" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <ul>
       <li>
           <span>Лекция</span>

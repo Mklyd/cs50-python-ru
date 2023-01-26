@@ -5,7 +5,7 @@
         <a href="https://cs50.harvard.edu/python/2022/">Ссылка на оригинальный курс</a> 
         <ol>
           <li><router-link to="/weeks/0">Функции, переменные</router-link></li>
-          <li><router-link to="">Условные выражения</router-link></li>
+          <li><router-link to="/weeks/1">Условные выражения</router-link></li>
           <li><router-link to="">Циклы</router-link> </li>
           <li><router-link to="">Исключения</router-link></li>
           <li><router-link to="">Библиотеки</router-link></li>
@@ -84,7 +84,7 @@ nav a {
   color: rgb(253, 86, 86);;
  }
 .content {
-  margin-left: 27rem;
+  margin-left: 29rem;
   color: #adb5bd;
   width: 60vw;
 }
@@ -95,6 +95,7 @@ nav a {
   border: 1px solid #495057;
   padding-left: 1rem;
   margin-right: 1rem;
+  margin-top: 1rem;
 }
 h2, h1 {
   padding: 1rem 0;

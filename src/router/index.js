@@ -132,6 +132,41 @@ const routes = [
     name: 'license',
     component: () => import(/* webpackChunkName: "about" */ '../components/LicenseNav.vue')
   },
+  {
+    path: '/notes/1',
+    name: 'notes1',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week1/Notes1View.vue')
+  },
+  {
+    path: '/psets/1',
+    name: 'psets1',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week1/Psets1View.vue'),
+  },
+  {
+    path: '/1/deep',
+    name: 'deep',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week1/DeepThought.vue'),
+  },
+  {
+    path: '/1/bank',
+    name: 'bank',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week1/HomeBank.vue'),
+  },
+  {
+    path: '/1/extensions',
+    name: 'extensions',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week1/FileExtensions.vue'),
+  },
+  {
+    path: '/1/interpreter',
+    name: 'interpreter',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week1/MathInterpreter.vue'),
+  },
+  {
+    path: '/1/meal',
+    name: 'meal',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week1/MealTime.vue'),
+  },
 ]
 
 const router = createRouter({
