@@ -13,7 +13,7 @@
         <h2>Демо</h2>
         <div id="asciicast-container-Pes7djS4b1GmwpwqNu2vj6LgY" class="asciicast" style="display: block; float: none; overflow: hidden; padding: 0px; margin: 20px 0px;"><iframe src="https://asciinema.org/a/Pes7djS4b1GmwpwqNu2vj6LgY/iframe?autoplay=1&amp;loop=1&amp;cols=80&amp;rows=12" id="asciicast-iframe-Pes7djS4b1GmwpwqNu2vj6LgY" name="asciicast-iframe-Pes7djS4b1GmwpwqNu2vj6LgY" scrolling="no" allowfullscreen="true" style="overflow: hidden; margin: 0px; border: 0px; display: inline-block; width: 100%; float: none; visibility: visible; height: 491px;"></iframe></div>
         <h2>Перед тем как приступить к заданию</h2>
-        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните комманду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
+        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните команду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
         <pre class="highlight"><code>$</code></pre>
         <p>Следующая команда</p>
         <pre class="highlight"><code>mkdir bank</code></pre>
@@ -26,13 +26,13 @@
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python bank.py</code>. Введите  <code class="code">Hello</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python bank.py</code>. Введите  <code class="code">Hello</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code> $0 </code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python bank.py</code>. Введите  <code class="code">Hello, Newman</code> и нажмите Enter.Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python bank.py</code>. Введите  <code class="code">Hello, Newman</code> и нажмите Enter.Ваша программа должна вывести:</li>
             <pre class="highlight"><code>$0 </code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python bank.py</code>. Введите  <code class="code">How you doing?</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python bank.py</code>. Введите  <code class="code">How you doing?</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>$20</code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python bank.py</code>. Введите  <code class="code">What's happening?</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python bank.py</code>. Введите  <code class="code">What's happening?</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>$100</code></pre>
         </ul>
         <p>Вы можете выполнить приведенную ниже команду, чтобы проверить свой код с помощью <code>check50</code>,являющейся программой которой CS50 будет проверять ваш код при отправке. Но перед отправкой обязательно протестируйте свой код сами!</p>

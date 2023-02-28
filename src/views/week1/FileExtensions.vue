@@ -24,7 +24,7 @@
         <h2>Демо</h2>
         <div id="asciicast-container-qUGyqlHIt0Za5lBMc0GB4CuLV" class="asciicast" style="display: block; float: none; overflow: hidden; padding: 0px; margin: 20px 0px;"><iframe src="https://asciinema.org/a/qUGyqlHIt0Za5lBMc0GB4CuLV/iframe?autoplay=1&amp;loop=1&amp;cols=80&amp;rows=12" id="asciicast-iframe-qUGyqlHIt0Za5lBMc0GB4CuLV" name="asciicast-iframe-qUGyqlHIt0Za5lBMc0GB4CuLV" scrolling="no" allowfullscreen="true" style="overflow: hidden; margin: 0px; border: 0px; display: inline-block; width: 100%; float: none; visibility: visible; height: 491px;"></iframe></div>
         <h2>Перед тем как приступить к заданию</h2>
-        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните комманду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
+        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните команду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
         <pre class="highlight"><code>$</code></pre>
         <p>Следующая команда</p>
         <pre class="highlight"><code>mkdir extensions</code></pre>
@@ -37,9 +37,9 @@
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python extensions.py</code>. Введите  <code class="code">happy.jpg</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python extensions.py</code>. Введите  <code class="code">happy.jpg</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code> image/jpeg </code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python extensions.py</code>. Введите  <code class="code">document.pdf</code> и нажмите Enter.Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python extensions.py</code>. Введите  <code class="code">document.pdf</code> и нажмите Enter.Ваша программа должна вывести:</li>
             <pre class="highlight"><code>application/pdf </code></pre>
         </ul>
         <p>Обязательно протестируйте каждый из других форматов файлов, измените регистр ввода и «случайно» добавьте пробелы с обеих сторон ввода перед нажатием клавиши ввода. Ваша программа должна вести себя так, как ожидается, без учета регистра и пробелов.</p>

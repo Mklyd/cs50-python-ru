@@ -167,6 +167,111 @@ const routes = [
     name: 'meal',
     component: () => import(/* webpackChunkName: "about" */ '../views/week1/MealTime.vue'),
   },
+  {
+    path: '/notes/2',
+    name: 'notes2',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week2/Notes2View.vue')
+  },
+  {
+    path: '/psets/2',
+    name: 'psets2',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week2/Psets2View.vue'),
+  },
+  {
+    path: '/2/camel',
+    name: 'camel',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week2/CamelCase.vue'),
+  },
+  {
+    path: '/2/coke',
+    name: 'coke',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week2/CokeMachine.vue'),
+  },
+  {
+  path: '/2/twttr',
+  name: 'twttr',
+  component: () => import(/* webpackChunkName: "about" */ '../views/week2/JustTwttr.vue'),
+  },
+  {
+    path: '/2/plates',
+    name: 'plate',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week2/VanityPlates.vue'),
+  },
+  {
+    path: '/2/nutrition',
+    name: 'nutrition',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week2/NutritionFacts.vue'),
+  },
+  {
+    path: '/notes/3',
+    name: 'notes3',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week3/Notes3View.vue')
+  },
+  {
+    path: '/psets/3',
+    name: 'psets3',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week3/Psets3View.vue'),
+  },
+  {
+    path: '/3/fuel',
+    name: 'fuel',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week3/FuelGauge.vue'),
+  },
+  {
+    path: '/3/taqueria',
+    name: 'taqueria',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week3/FelipesTaqueria.vue'),
+  },
+  {
+    path: '/3/grocery',
+    name: 'grocery',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week3/GroceryList.vue'),
+  },
+  {
+  path: '/3/outdated',
+  name: 'outdated',
+  component: () => import(/* webpackChunkName: "about" */ '../views/week3/PsetsOutdated.vue'),
+  },
+  {
+    path: '/notes/4',
+    name: 'notes4',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/Notes4View.vue')
+  },
+  {
+    path: '/psets/4',
+    name: 'psets4',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/Psets4View.vue'),
+  },
+  {
+    path: '/4/emojize',
+    name: 'emojize',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/PsetsEmojize.vue'),
+  },
+  {
+    path: '/4/figlet',
+    name: 'figlet',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/FrankIanandGlensLetters.vue'),
+  },
+  {
+    path: '/4/adieu',
+    name: 'adieu',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/AdieuAdieu.vue'),
+  },
+  {
+    path: '/4/game',
+    name: 'game',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/GuessingGame.vue'),
+  },
+  {
+    path: '/4/professor',
+    name: 'professor',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/LittleProfessor.vue'),
+  },
+  {
+    path: '/4/bitcoin',
+    name: 'bitcoin',
+    component: () => import(/* webpackChunkName: "about" */ '../views/week4/BitcoinPriceIndex.vue'),
+  },
 ]
 
 const router = createRouter({

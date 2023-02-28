@@ -14,13 +14,13 @@
             <ul>
                 <li>Не забывайте, что <code class="code">str</code> имеет несколько методов, согласно <a href="https://docs.python.org/3/library/stdtypes.html#string-methods">docs.python.org/3/library/stdtypes.html#string-methods</a>, включая метод <code class="code">split</code>, который разделяет <code class="code">str</code> в последовательность значений, все они могут быть назначены переменным одновременно. Например, если выражение это <code class="code">str</code> - 1 + 1, то</li>
                 <pre class="highlight"><code>x, y, z = expression.split(" ")</code></pre>
-                <p>x будет 1, y будет + и z будет второй 1</p>
+                <p>в x будет помещена 1, в y будет помещен +, а в z будет помещена вторая 1</p>
             </ul>
         </details>
         <h2>Демо</h2>
         <div id="asciicast-container-udHWr5HxtxP5poDso1aVRB7qC" class="asciicast" style="display: block; float: none; overflow: hidden; padding: 0px; margin: 20px 0px;"><iframe src="https://asciinema.org/a/udHWr5HxtxP5poDso1aVRB7qC/iframe?autoplay=1&amp;loop=1&amp;cols=80&amp;rows=12" id="asciicast-iframe-udHWr5HxtxP5poDso1aVRB7qC" name="asciicast-iframe-udHWr5HxtxP5poDso1aVRB7qC" scrolling="no" allowfullscreen="true" style="overflow: hidden; margin: 0px; border: 0px; display: inline-block; width: 100%; float: none; visibility: visible; height: 491px;"></iframe></div>
         <h2>Перед тем как приступить к заданию</h2>
-        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните комманду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
+        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните команду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
         <pre class="highlight"><code>$</code></pre>
         <p>Следующая команда</p>
         <pre class="highlight"><code>mkdir interpreter</code></pre>
@@ -33,13 +33,13 @@
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python interpreter.py</code>. Введите  <code class="code">1 + 1</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python interpreter.py</code>. Введите  <code class="code">1 + 1</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>2.0 </code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python interpreter.py</code>. Введите  <code class="code">2 - 3</code> и нажмите Enter.Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python interpreter.py</code>. Введите  <code class="code">2 - 3</code> и нажмите Enter.Ваша программа должна вывести:</li>
             <pre class="highlight"><code>-1.0 </code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python interpreter.py</code>. Введите  <code class="code">2 * 2</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python interpreter.py</code>. Введите  <code class="code">2 * 2</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>4.0</code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python interpreter.py</code>. Введите  <code class="code">50 / 5</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python interpreter.py</code>. Введите  <code class="code">50 / 5</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>10.0</code></pre>
         </ul>
         <p>Вы можете выполнить приведенную ниже команду, чтобы проверить свой код с помощью <code>check50</code>,являющейся программой которой CS50 будет проверять ваш код при отправке. Но перед отправкой обязательно протестируйте свой код сами!</p>

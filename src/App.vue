@@ -6,9 +6,9 @@
         <ol>
           <li><router-link to="/weeks/0">Функции, переменные</router-link></li>
           <li><router-link to="/weeks/1">Условные выражения</router-link></li>
-          <li><router-link to="">Циклы</router-link> </li>
-          <li><router-link to="">Исключения</router-link></li>
-          <li><router-link to="">Библиотеки</router-link></li>
+          <li><router-link to="/weeks/2">Циклы</router-link> </li>
+          <li><router-link to="/weeks/3">Исключения</router-link></li>
+          <li><router-link to="/weeks/4">Библиотеки</router-link></li>
           <li><router-link to="">Модульное тестирование</router-link></li>
           <li><router-link to="">Файловый ввод/вывод</router-link></li>
           <li><router-link to="">Регулярные выражения</router-link></li>
@@ -26,7 +26,7 @@
           <li><a href="https://gitter.im/cs50/x">Gitter</a> <span>Q&amp;A</span></li>
           <li><a href="https://instagram.com/cs50">Instagram</a></li>
           <li><a href="https://www.linkedin.com/groups/7437240/">LinkedIn Группа</a></li>
-          <li><a href="https://www.linkedin.com/school/CS50/">LinkedIn Стариница</a></li>
+          <li><a href="https://www.linkedin.com/school/CS50/">LinkedIn Страница</a></li>
           <li><a href="https://cs50.medium.com/">Medium</a></li>
           <li><a href="https://www.quora.com/topic/CS50">Quora</a></li>
           <li><a href="https://www.reddit.com/r/cs50/">Reddit</a> <span>Q&amp;A</span></li>
@@ -53,7 +53,7 @@
   color: white;
   font-size: 16px;
   background: #212529;
-
+  padding-bottom: 3rem;
 }
 #main {
   display: flex;
@@ -87,6 +87,7 @@ nav a {
   margin-left: 29rem;
   color: #adb5bd;
   width: 60vw;
+  height: 100vh;
 }
 .highlight {
   background: #0d1117;

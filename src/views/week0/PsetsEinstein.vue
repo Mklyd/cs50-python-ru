@@ -12,7 +12,7 @@
             </ul>
         </details>
         <h2>Перед тем как приступить к заданию</h2>
-        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните комманду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
+        <p>Перейдите по ссылке <a href="https://code.cs50.io/">code.cs50.io</a> и зайдите в свой аккаунт. Выполните команду <code class="code">cd</code> в вашем терминальном окне. Ваше терминальное окно должно выглядить как представлено ниже:</p>
         <pre class="highlight"><code>$</code></pre>
         <p>Следующая команда</p>
         <pre class="highlight"><code>mkdir einstein</code></pre>
@@ -27,11 +27,11 @@
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python einstein.py</code>. Введите  <code class="code">1</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python einstein.py</code>. Введите  <code class="code">1</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>90000000000000000</code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python einstein.py</code>. Введите  <code class="code">14</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python einstein.py</code>. Введите  <code class="code">14</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>1260000000000000000</code></pre>
-            <li>Запустите вашу программу с помощью комманды <code class="code">python einstein.py</code>. Введите  <code class="code">50</code> и нажмите Enter. Ваша программа должна вывести:</li>
+            <li>Запустите вашу программу с помощью команды <code class="code">python einstein.py</code>. Введите  <code class="code">50</code> и нажмите Enter. Ваша программа должна вывести:</li>
             <pre class="highlight"><code>4500000000000000000</code></pre>
         </ul>
         <p>Вы можете выполнить приведенную ниже команду, чтобы проверить свой код с помощью <code>check50</code>,являющейся программой которой CS50 будет проверять ваш код при отправке. Но перед отправкой обязательно протестируйте свой код сами!</p>
