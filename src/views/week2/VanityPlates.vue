@@ -41,7 +41,7 @@ main()</code></pre>
         <pre class="highlight"><code>cd plates</code></pre>
         <p>чтобы изменить директорию в папке. Вы должны увидеть в терминале <code class="code">plates/ $</code>. Вы можете сейчас выполнить</p>
         <pre class="highlight"><code>code plates.py</code> </pre>
-        <p>чтобы создать файл с именем , <code class="code"> plates.py</code>в котором вы будете писать свою программу.</p>
+        <p>чтобы создать файл с именем <code class="code"> plates.py</code>, в котором вы будете писать свою программу.</p>
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>

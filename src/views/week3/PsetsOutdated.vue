@@ -41,7 +41,7 @@
         <pre class="highlight"><code>cd outdated</code></pre>
         <p>чтобы изменить директорию в папке. Вы должны увидеть в терминале <code class="code">outdated/ $</code>. Вы можете сейчас выполнить</p>
         <pre class="highlight"><code>code outdated.py</code> </pre>
-        <p>чтобы создать файл с именем , в <code class="code"> outdated.py</code> котором вы будете писать свою программу.</p>
+        <p>чтобы создать файл с именем <code class="code"> outdated.py</code>, в котором вы будете писать свою программу.</p>
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>

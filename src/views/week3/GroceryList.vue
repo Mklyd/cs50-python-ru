@@ -33,7 +33,7 @@ except EOFError:
         <pre class="highlight"><code>cd grocery</code></pre>
         <p>чтобы изменить директорию в папке. Вы должны увидеть в терминале <code class="code">grocery/ $</code>. Вы можете сейчас выполнить</p>
         <pre class="highlight"><code>code grocery.py</code> </pre>
-        <p>чтобы создать файл с именем , в <code class="code"> grocery.py</code> котором вы будете писать свою программу.</p>
+        <p>чтобы создать файл с именем <code class="code"> grocery.py</code>, в котором вы будете писать свою программу.</p>
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>

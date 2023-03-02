@@ -34,7 +34,7 @@ except (ValueError, ZeroDivisionError):
         <pre class="highlight"><code>cd fuel</code></pre>
         <p>чтобы изменить директорию в папке. Вы должны увидеть в терминале <code class="code">fuel/ $</code>. Вы можете сейчас выполнить</p>
         <pre class="highlight"><code>code fuel.py</code> </pre>
-        <p>чтобы создать файл с именем , в <code class="code"> fuel.py</code> котором вы будете писать свою программу.</p>
+        <p>чтобы создать файл с именем <code class="code"> fuel.py</code>, в котором вы будете писать свою программу.</p>
         <h2>Как проверить</h2>
         <p>Вот как протестировать код вручную:</p>
         <ul>
